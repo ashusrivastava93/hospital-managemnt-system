@@ -31,5 +31,4 @@ public class Hospital {
     @OneToMany(mappedBy = "hospital", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Doctor> doctors = new ArrayList<>();
 
-    , Equals, HashCode
 }

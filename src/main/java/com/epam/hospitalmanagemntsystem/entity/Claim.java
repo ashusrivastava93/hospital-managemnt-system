@@ -30,5 +30,5 @@ public class Claim {
     @Column(name = "status")
     private String status;
 
-    // Constructors, Getters, Setters
+
 }

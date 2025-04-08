@@ -24,5 +24,5 @@ public class Insurance {
     @Column(name = "coverage_amount")
     private BigDecimal coverageAmount;
 
-    // Constructors, Getters, Setters
+
 }

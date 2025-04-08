@@ -29,5 +29,5 @@ public class Doctor {
     @Column(name = "department")
     private String department;
 
-    // Constructors, Getters, Setters
+
 }

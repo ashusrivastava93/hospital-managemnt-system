@@ -32,5 +32,5 @@ public class TestReport {
     @Column(name = "notes", columnDefinition = "TEXT")
     private String notes;
 
-    // Constructors, Getters, Setters
+
 }

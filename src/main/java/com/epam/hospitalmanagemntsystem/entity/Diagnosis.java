@@ -25,5 +25,5 @@ public class Diagnosis {
     @Column(name = "description", columnDefinition = "TEXT")
     private String description;
 
-    // Constructors, Getters, Setters
+
 }

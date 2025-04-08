@@ -33,5 +33,5 @@ public class Room {
     @Column(name = "charges")
     private BigDecimal charges;
 
-    // Constructors, Getters, Setters
+
 }

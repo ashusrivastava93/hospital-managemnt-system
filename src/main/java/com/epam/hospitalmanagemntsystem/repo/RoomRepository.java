@@ -1,0 +1,13 @@
+package com.epam.hospitalmanagemntsystem.repo;
+
+import com.epam.hospitalmanagemntsystem.entity.Hospital;
+import com.epam.hospitalmanagemntsystem.entity.Room;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface RoomRepository extends JpaRepository<Room, Long> {
+    List<Room> findByHospital(Hospital hospital);
+}

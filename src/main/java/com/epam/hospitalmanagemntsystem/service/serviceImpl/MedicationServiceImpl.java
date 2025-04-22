@@ -1,7 +1,7 @@
 package com.epam.hospitalmanagemntsystem.service.serviceImpl;
 
 import com.epam.hospitalmanagemntsystem.entity.Medication;
-import com.epam.hospitalmanagemntsystem.repository.MedicationRepository;
+import com.epam.hospitalmanagemntsystem.repo.MedicationRepository;
 import com.epam.hospitalmanagemntsystem.service.MedicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

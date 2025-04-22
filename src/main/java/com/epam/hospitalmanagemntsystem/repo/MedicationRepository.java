@@ -1,4 +1,4 @@
-package com.epam.hospitalmanagemntsystem.repository;
+package com.epam.hospitalmanagemntsystem.repo;
 
 import com.epam.hospitalmanagemntsystem.entity.Medication;
 import org.springframework.data.jpa.repository.JpaRepository;

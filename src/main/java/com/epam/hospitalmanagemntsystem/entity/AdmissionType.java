@@ -1,6 +1,8 @@
 package com.epam.hospitalmanagemntsystem.entity;
 import jakarta.persistence.*;
 import lombok.Data;
+
+
 import java.time.LocalDateTime;
 @Entity
 @Table(name = "admission_type_details")
@@ -24,14 +26,6 @@ public class AdmissionType {
 
     @Column(name = "reason")
     private String reason;
-
-    public void setTypeName(String typeName) {
-        this.typeName = typeName;
-    }
-
-    public String getTypeName() {
-        return typeName;
-    }
 
     @Column(name = "type_name")
     private String typeName;

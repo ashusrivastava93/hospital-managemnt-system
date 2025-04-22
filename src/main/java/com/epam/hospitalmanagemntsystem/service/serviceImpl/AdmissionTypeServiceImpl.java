@@ -1,7 +1,7 @@
 package com.epam.hospitalmanagemntsystem.service.serviceImpl;
 
 import com.epam.hospitalmanagemntsystem.entity.AdmissionType;
-import com.epam.hospitalmanagemntsystem.repository.AdmissionTypeRepository;
+import com.epam.hospitalmanagemntsystem.repo.AdmissionTypeRepository;
 import com.epam.hospitalmanagemntsystem.service.AdmissionTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
